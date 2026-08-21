@@ -28,9 +28,11 @@ Como usar passo a passo (muito simples) ✅
 6. Verifique se os dados estão corretos e clique no botão verde "Ir para Pagamento no Tesouro".
 7. Você será redirecionado(a) ao site oficial do Tesouro ou da unidade responsável. Lá, clique em "Iniciar Pagamento" ou siga as instruções do site para concluir.
 
+
+
 Dicas úteis 💡
 
-- Antes de abrir o Facilitador, confirme o valor da multa no balcão da biblioteca ou na sua Área do Usuário do Catálogo Online. Nem sempre o valor aparece automaticamente.
+- Antes de abrir o Facilitador, confirme o valor da multa no balcão da biblioteca ou na sua Área do Usuário do Catálogo Online.
 - Use o CPF da pessoa que será a responsável pelo pagamento.
 - Se tiver dúvidas sobre o valor ou destino da multa, procure o atendimento da biblioteca do seu campus antes de pagar.
 
