@@ -8,16 +8,6 @@ Este documento explica, de forma simples e passo a passo, como usar a ferramenta
 
 ---
 
-O que você verá na tela (explicado como na imagem):
-
-- Cabeçalho verde com o título "Facilitador GRU" e o subtítulo "Sistema de Bibliotecas do IFB" 🏛️
-- Um formulário com os campos a preencher:
-  1. Campus: um menu para selecionar o campus do IFB onde a multa foi registrada. 👉 Selecione o campus correto.
-  2. CPF do Contribuinte: digite o seu CPF no formato 000.000.000-00. 🧾
-  3. Nome Completo: seu nome tal como consta nos registros. ✍️
-  4. Valor a pagar (R$): informe o valor da multa (por exemplo, 10,00). 💸
-- Um botão verde grande escrito "Ir para Pagamento no Tesouro". Ao clicar, você será levado ao site oficial para concluir o pagamento.
-
 Como usar passo a passo (muito simples) ✅
 
 1. Abra a página do Facilitador GRU (a página que mostra o formulário).
