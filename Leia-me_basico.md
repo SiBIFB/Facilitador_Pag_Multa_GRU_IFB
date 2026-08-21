@@ -58,5 +58,3 @@ Se precisar de ajuda, procure a biblioteca do seu campus ou envie um e-mail para
 ---
 
 Obrigado por usar o Facilitador GRU! 🙏
-
-Se quiser, posso também criar uma versão ainda mais curta para ser impressa e colada no balcão de atendimento. Quer que eu faça isso? ✂️🖨️
