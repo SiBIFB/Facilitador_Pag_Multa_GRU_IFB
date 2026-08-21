@@ -172,6 +172,25 @@
                     </div>
                 </div>
 
+                <!-- Bloco de E-mail para Comprovante -->
+                <div class="mt-5 bg-amber-50 border border-amber-200 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-sm font-bold text-amber-900 mb-1 flex items-center gap-1.5">
+                        <i class="ph ph-envelope-open text-lg"></i>
+                        Envio do Comprovante
+                    </h3>
+                    <p class="text-xs text-amber-800 mb-3 leading-relaxed">
+                        Após pagar, envie o comprovante de pagamento (informando seu nome completo e matrícula) para o e-mail da sua biblioteca:
+                    </p>
+                    <div class="flex items-center justify-between bg-white border border-amber-200 p-2.5 rounded-md">
+                        <a id="display-email-link" href="#" class="font-medium text-amber-700 text-sm truncate hover:underline flex items-center gap-1">
+                            <span id="display-email-text"></span>
+                        </a>
+                        <button onclick="copiarParaAreaDeTransferencia('display-email-text')" class="ml-2 flex-shrink-0 text-slate-500 hover:text-amber-700 transition-colors bg-slate-50 hover:bg-amber-100 border border-slate-200 hover:border-amber-300 p-1.5 rounded shadow-sm" title="Copiar E-mail">
+                            <i class="ph ph-copy text-lg"></i>
+                        </button>
+                    </div>
+                </div>
+
                 <button onclick="resetarFormulario()" 
                     class="w-full mt-6 bg-slate-200 hover:bg-slate-300 text-slate-700 font-semibold py-3 px-4 rounded-lg transition-colors flex items-center justify-center gap-2">
                     <i class="ph ph-arrow-counter-clockwise text-xl"></i>
@@ -303,10 +322,28 @@
             // Para a tela de exibição (formato brasileiro): ex 15,50
             const valorFormatadoTela = valorFormatadoURL.replace('.', ',');
 
+            // Mapeamento de e-mails por Campus
+            const emailsCampi = {
+                "030955": "bibliotecabrasilia@ifb.edu.br",
+                "152145": "biblioteca.ccei@ifb.edu.br",
+                "034504": "bibliotecaestrutural@ifb.edu.br",
+                "033575": "cgam.biblioteca@ifb.edu.br",
+                "033275": "bibliotecaplanaltina@ifb.edu.br",
+                "031403": "cdbi.crem@ifb.edu.br",
+                "030898": "biblioteca.crfi@ifb.edu.br",
+                "031315": "bibliotecasamambaia@ifb.edu.br",
+                "033511": "biblioteca.cssb@ifb.edu.br",
+                "031373": "biblioteca.ctag@ifb.edu.br"
+            };
+
+            const emailBiblioteca = emailsCampi[servicoCodigo];
+
             // Preenchendo os dados na tela de Helper
             document.getElementById('display-cpf').innerText = cpfLimpo;
             document.getElementById('display-nome').innerText = nome;
             document.getElementById('display-valor').innerText = valorFormatadoTela;
+            document.getElementById('display-email-text').innerText = emailBiblioteca;
+            document.getElementById('display-email-link').href = `mailto:${emailBiblioteca}`;
 
             // URL com os parâmetros injetados
             // numeroReferencia=100 & valorPrincipal=X.XX & cpfCnpjContribuinte=XXX & nomeContribuinte=YYY
