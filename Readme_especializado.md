@@ -180,7 +180,7 @@ e.target.value = numericValue.toLocaleString('pt-BR', {
 | Campus | Código Serviço | E-mail |
 |--------|------------------|--------|
 | Brasília | `030955` | bibliotecabrasilia@ifb.edu.br |
-| Ceilândia | `152145` | biblioteca.ccei@ifb.edu.br |
+| Ceilândia | `031180` | biblioteca.ccei@ifb.edu.br |
 | Estrutural | `034504` | bibliotecaestrutural@ifb.edu.br |
 | Gama | `033575` | cgam.biblioteca@ifb.edu.br |
 | Planaltina | `033275` | bibliotecaplanaltina@ifb.edu.br |
