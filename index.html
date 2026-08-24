@@ -46,15 +46,15 @@
             <!-- Seção do Formulário -->
             <div id="form-section" class="space-y-4">
                 <div>
-                    <label for="campus" class="block text-sm font-semibold text-slate-700 mb-1">Campus</label>
+                    <label for="campus" class="block text-sm font-semibold text-slate-700 mb-1">Campus da biblioteca onde a multa foi gerada</label>
                     <div class="relative">
                         <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
                             <i class="ph ph-buildings text-lg"></i>
                         </div>
                         <select id="campus" class="w-full pl-10 pr-10 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 outline-none transition-colors appearance-none bg-white cursor-pointer">
-                            <option value="" disabled selected>Selecione o seu campus...</option>
+                            <option value="" disabled selected>Selecione o campus...</option>
                             <option value="030955">Campus Brasília</option>
-                            <option value="152145">Campus Ceilândia</option>
+                            <option value="031180">Campus Ceilândia</option>
                             <option value="034504">Campus Estrutural</option>
                             <option value="033575">Campus Gama</option>
                             <option value="033275">Campus Planaltina</option>
@@ -304,7 +304,7 @@
 
             // Validações
             if (!servicoCodigo) {
-                mostrarMensagem("Por favor, selecione o seu Campus.", "error");
+                mostrarMensagem("Por favor, selecione o Campus da Biblioteca.", "error");
                 document.getElementById('campus').focus();
                 return;
             }
