@@ -830,7 +830,6 @@ async function copiarModerno(texto) {
 
 #### v2.0
 - [ ] Validação completa de CPF (algoritmo módulo 11)
-- [ ] Suporte a CNPJ (além de CPF)
 - [ ] Sistema de logging server-side
 - [ ] Dark mode
 - [ ] Suporte a idiomas (i18n)
