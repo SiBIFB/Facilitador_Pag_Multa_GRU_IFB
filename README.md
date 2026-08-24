@@ -1,5 +1,5 @@
 # Facilitador GRU — Pagamento de Multas (IFB)
-(feito pela IA Copilot embutido no Github)
+> (Descrição feita pela IA Copilot embutido no Github e adaptadado por Daniel R.G.)
 
 Bem-vindo(a)! 👋
 
