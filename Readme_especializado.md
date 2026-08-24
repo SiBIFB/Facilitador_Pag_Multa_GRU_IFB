@@ -1,4 +1,5 @@
-# 📋 Leia-me Especializado — Facilitador GRU (feito pela IA Copilot embutido no Github)
+# 📋 Leia-me Especializado — Facilitador GRU 
+(feito pela IA Copilot embutido no Github)
 ## Documentação Técnica para Profissionais de TI e Bibliotecários com Conhecimento em Informática
 
 ---
