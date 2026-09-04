@@ -79,6 +79,11 @@
                         <input type="text" id="cpf" placeholder="000.000.000-00" maxlength="14" 
                             class="w-full pl-10 pr-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 outline-none transition-colors">
                     </div>
+                    <!-- Aviso resumido sobre o bug do Tesouro -->
+                    <div class="mt-2 flex items-start gap-1.5 text-xs text-purple-800 bg-purple-50 p-2.5 rounded-md border border-purple-100 shadow-sm">
+                        <i class="ph ph-info text-purple-600 text-sm mt-[1px]"></i>
+                        <span>O site do Tesouro pode apresentar um bug visual e exibir seu CPF com uma barra (ex: <strong>.../117</strong>). Não se preocupe, o pagamento funcionará normalmente.</span>
+                    </div>
                 </div>
 
                 <div>
@@ -125,6 +130,15 @@
                     <p class="text-slate-600 text-sm mt-1">
                         Se a aba não abriu automaticamente, 
                         <a href="#" id="fallback-link" target="_blank" rel="noopener noreferrer" class="text-green-600 font-semibold hover:underline">clique aqui</a>.
+                    </p>
+                </div>
+
+                <!-- NOVO AVISO SOBRE O BUG DO TESOURO -->
+                <div class="bg-purple-50 border border-purple-200 p-3.5 rounded-lg flex items-start gap-3 mb-4 shadow-sm">
+                    <i class="ph ph-warning-circle text-purple-600 text-xl mt-0.5"></i>
+                    <p class="text-xs text-purple-900 leading-relaxed">
+                        <strong class="block mb-0.5">Aviso sobre o CPF preenchido:</strong> 
+                        O site do Tesouro pode apresentar um bug visual e exibir seu CPF com uma barra (ex: <span class="font-mono bg-purple-100 px-1 rounded">.../117</span>). <strong>Não se preocupe!</strong> É apenas um bug do site deles e o pagamento será processado perfeitamente.
                     </p>
                 </div>
 
